@@ -12,8 +12,8 @@ main {
 }
 
 .navbar {
-    background-image: url(./../img/blurry-gradient-haikei.png);
-    background-size: cover;
+    background-image: url(./../img/istockphoto-1157026669-170667a.jpeg);
+    /* background-size: cover; */
     background-position: center;
 }
 
@@ -61,7 +61,7 @@ main {
 }
 
 .btn-dark a:hover {
-    color: antiquewhite;
+    color: rgb(210, 179, 80);
     text-decoration: none;
 }
 
@@ -71,7 +71,7 @@ main {
 }
 
 .btn-grad {
-    background-image: linear-gradient(to right, #200122 0%, #6f0000 51%, #200122 100%);
+    background-image: linear-gradient(to right, #575329 0%, #23270b 51%, #200122 100%);
     margin: 10px;
     padding: 10px 10px;
     text-align: center;
@@ -118,28 +118,27 @@ main {
 
 .caja-reseña-usuario {
     color: aliceblue;
-    background-image: url(./../img/blurry-gradient-haikei.png);
+    background-image: url(./../img/istockphoto-1157026669-170667a.jpeg);
     background-position: center;
-    background-size: cover;
     margin: 10px 0px;
     padding: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .pagination {
-    margin: 0;
+    margin:0px;
 }
 /* prueba de color gradient inicio */
 .btn-grad-pagination {
-    background-image: linear-gradient(to right, #200122 0%, #270000  51%, #594848  100%);
-    margin: 10px;
+    background-image: linear-gradient(to right, #575329 0%, #23270b 51%, #200122 100%);
     padding: 8px;
+    margin: 10px;
     transition: 0.5s;
     background-size: 200% auto;
     color: white;
     display: block;
-    border: 0;
-    border-radius: 10px;
+    border: 0px;
+    letter-spacing: 10px;
 }
 
 .btn-grad-pagination:hover {
@@ -149,8 +148,8 @@ main {
 }
 /* prueba de color gradient fin */
 footer {
-    background-image: url(./../img/blurry-gradient-haikei.png);
-    background-size: cover;
+    background-image: url(./../img/istockphoto-1157026669-170667a.jpeg);
+    /* background-size: cover; */
     background-position: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
